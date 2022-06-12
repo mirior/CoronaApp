@@ -3,6 +3,8 @@ using CoronaApp.Dal;
 using CoronaApp.Services;
 using Serilog;
 
+//check pushing to the dev branch??
+
 var builder = WebApplication.CreateBuilder(args);
 
 var logger = new LoggerConfiguration()
