@@ -3,7 +3,7 @@ using CoronaApp.Dal;
 using CoronaApp.Services;
 using Serilog;
 
-//check pushing to the dev branch??
+//commit 3
 
 var builder = WebApplication.CreateBuilder(args);
 
