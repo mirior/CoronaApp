@@ -7,23 +7,15 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using System;
 using Xunit;
 using System.Net.Http.Json;
-//using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 
 namespace CoronaApp.Tests
 {
-    //: IClassFixture<WebApplicationFactory<Program>>
     public class PatientControllerTests 
     {
-        //private readonly WebApplicationFactory<Program> _factory;
 
         WebApplicationFactory<Program> application = new WebApplicationFactory<Program>();
         
-        //public PatientControllerTests(WebApplicationFactory<Program> factory)
-        //{
-        //    _factory = factory;
-        //}
-
         public async void GetPatient_ById_ReturnPatient()
         {
             // Arrange

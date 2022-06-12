@@ -11,7 +11,6 @@ namespace CoronaApp.Services
     {
         public Task<List<Location>> GetLocation();
         public Task<List<Location>> GetLocationByCity(string city);
-        //public Task<List<Location>> getLocationByPatiantId(string id);
-        //public Task postLocation(Location location);
+        
     }
 }

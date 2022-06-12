@@ -31,29 +31,8 @@ namespace CoronaApp.Controllers
         {
             return await _locationBusinessLogic.GetLocationByCity(city);
         }
-        ////GET api/<LocationController>/5
-        //[HttpGet("{id}")]
-        //public async Task<List<Location>> getLocationByPatiantId(string id)
-        //{
-        //    return await _locationBusinessLogic.getLocationByPatiantId(id);
-        //}
-        //// POST api/<LocationController>
-        //[HttpPost]
-        //public async Task postLocation(Location location)
-        //{
-        //    await _locationBusinessLogic.postLocation(location);
-        //}
+        
 
-        // PUT api/<LocationController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<LocationController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
     }
 }

@@ -3,7 +3,6 @@ using CoronaApp.Dal;
 using CoronaApp.Services;
 using Serilog;
 
-//commit 3
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -22,14 +22,6 @@ namespace CoronaApp.Services
         {
             return await _locationDataAccess.GetLocationByCity(city);
         }
-        //public async Task<List<Location>> getLocationByPatiantId(string id)
-        //{
-        //    return await _locationDataAccess.getLocationByPatiantId(id);
-        //}
-
-        //public async Task postLocation(Location location)
-        //{
-        //    await _locationDataAccess.postLocation(location);
-        //}
+        
     }
 }

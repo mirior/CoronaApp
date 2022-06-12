@@ -40,12 +40,10 @@ namespace CoronaApp.Tests
             var controller = new LocationsController(mock.Object);
 
             // Act
-            //var response = await client.GetAsync("/api/Locations/GetByCity?city=Jerusalem");
             var result =controller.GetLocationByCity(city).Result;
           
 
             //Assert
-            //response.EnsureSuccessStatusCode();
             Assert.Same(result, locations);
         }
 
